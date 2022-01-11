@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* spalvos */
+
+:root {
+    --cacao: #A68776;
+    --red: #BF2424;
+}
+
+/* HEADER */
+
+.header-bgimg{
+    background-image: url("dovanos.jpg");
+    background-size: 100%;
+    background-position: center;
+}
+
+
+.header-filter{
+    background-color: rgb(171, 144, 122, 20%);
+}
+
+.header-content{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 0 8em 0;
+    
+}
+
+.text-left{
+    text-align: left;
+}
+
+.header-bgimg h3 {
+    margin-bottom: 5em;
+}
+
+.fas{
+  color: whitesmoke;
+    font-size: 70px;
+}
+
+
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.buttonfirst {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #BF2424;;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+    
+    .buttonfirst:hover {background-color:#BF2424;
+     }
+  
+  .buttonfirst:active {
+    background-color: #BF2424;;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  nav ul p1 {
+      color: whitesmoke;
+  }
+
+/* NAV */
+
+nav {
+    background-color: var(--red);
+}
+
+nav ul{
+    text-align: center;
+}
+
+
+nav ul li{
+    text-decoration: none;
+    padding: 25px;
+   text-align: center;
+   display: inline-block;
+   width: 16%;
+   
+}
+
+/* MAIN */
+
+/* main{
+    text-align: center;
+} */
+
+.section-midimg {
+    background-image: url("baltizaisliukai.jpg");
+    background-size: 100%;
+    background-position: center;
+    
+}
+
+.midimg-filter{
+    background-color: rgba(249, 249, 249, 0.8, 20%);
+}
+
+
+.article-content{
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+.article-content img{
+    width: 100%;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #A68776;
+    border-radius: 0.6em;
+    color: #A68776;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  .second {
+    border-radius: 3em;
+    border-color: #A68776;
+    color:white;
+    background-color: #BF2424;;
+    
+    background-position: 0 0;
+    background-size: 100%;
+    transition:background 300ms ease-in-out;
+  }
+  .second:hover {
+    background-position: 100px;
+  }
+  
+
+footer {
+   background-color:#BF2424;
+   padding: 40px;
+   text-align: center;
+   color:whitesmoke;
+  
+   
+} 
+footer p {
+    display: inline-block;
+}    
+.fa-thin{
+    color: whitesmoke;
+    font-size: 50px;
+}
